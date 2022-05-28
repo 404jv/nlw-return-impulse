@@ -1,5 +1,3 @@
-import { throws } from 'assert';
-
 import { IMailAdapter } from '../adapters/mail-adapter';
 import { IFeedbacksRepository } from '../repositories/feedbacks-repository';
 
