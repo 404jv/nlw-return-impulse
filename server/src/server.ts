@@ -10,6 +10,6 @@ app.use(cors());
 app.use(express.json());
 app.use(routes);
 
-app.listen(process.env.port || 3333, () =>
+app.listen(process.env.PORT || 3333, () =>
   logger.info('🚀 Server started on port 3333')
 );
